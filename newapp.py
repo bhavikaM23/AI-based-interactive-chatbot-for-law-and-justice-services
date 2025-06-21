@@ -31,10 +31,6 @@ SPEECH_RECOGNITION_LANG_MAP = {
 }
 
 # --- Initialize OpenAI client ---
-client = OpenAI(
-    base_url="https://openrouter.ai/api/v1",
-    api_key="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",
-)
 
 # --- Utility Functions ---
 def clean_text_for_speech(text, language):
