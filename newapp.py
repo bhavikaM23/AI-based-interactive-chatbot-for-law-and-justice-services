@@ -31,6 +31,7 @@ SPEECH_RECOGNITION_LANG_MAP = {
 }
 
 # --- Initialize OpenAI client ---
+# add your api here!!!
 
 # --- Utility Functions ---
 def clean_text_for_speech(text, language):
